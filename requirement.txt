@@ -1,0 +1,16 @@
+**Required Tasks:** 
+
+1. Your carousel has to behave exactly like we have on the app. I.e. when you pan around, the tiles should move along. Don’t just implement a swipe gesture implementation.
+    1. Specifically if you scroll slowly, it should behave very smoothly. No erratic behaviour.
+2. It’s paginated i.e. when you lift your finger it should center to the nearest tile.
+3. There should NOT be any space between the cards.
+4. The image in the middle should zoom as it comes to the center.
+5. The images should zoom in and out keeping the aspect ratio intact.
+6. You can use any inbuilt views but no third-party libraries.
+7. You don’t need to add country labels or anything, just use any images you like. Still add some rounding to the images so it looks something like this. 
+8. The default height of the carousel view can be around 250 points and carousel items have to be of 1:1 aspect ratio. 
+9. The height should not be fixed. Which means I were to add some fixed height views at the top and bottom the carousel view should resize itself (i.e., make itself smaller). 
+10. In continuation to the above, the view should not overlap any view at the top and bottom if they are added. 
+11. You can assume that the carousel view will always occupy the full width of the screen. 
+12. When the view appears on the screen, the middle image should be visible on the screen and zoomed-in. 
+13. The carousel view should be easily extensible i.e., if were to add 4 more images to it, it should not take more than 15 mins.
