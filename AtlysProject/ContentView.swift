@@ -10,8 +10,8 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         VStack {
-            CarouselView()
-            
+            CarouselView(images: ["Canada", "Tokyo", "London", "HongKong", "Paris"])
+
             Text("Get Visas On Time")
                 .font(.largeTitle)
                 .padding()

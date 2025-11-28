@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B191143E2EDA1E2D00B7C293 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = B191143D2EDA1E2D00B7C293 /* Item.swift */; };
+		B191143F2EDA1E5B00B7C293 /* Store.swift in Sources */ = {isa = PBXBuildFile; fileRef = B191143B2EDA1E0900B7C293 /* Store.swift */; };
 		B1935A2A2ED97F1F009FE87E /* AtlysProjectApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1935A292ED97F1F009FE87E /* AtlysProjectApp.swift */; };
 		B1935A2C2ED97F1F009FE87E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1935A2B2ED97F1F009FE87E /* ContentView.swift */; };
 		B1935A2E2ED97F25009FE87E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B1935A2D2ED97F25009FE87E /* Assets.xcassets */; };
@@ -35,6 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B191143B2EDA1E0900B7C293 /* Store.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Store.swift; sourceTree = "<group>"; };
+		B191143D2EDA1E2D00B7C293 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
 		B1935A262ED97F1F009FE87E /* AtlysProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AtlysProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B1935A292ED97F1F009FE87E /* AtlysProjectApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AtlysProjectApp.swift; sourceTree = "<group>"; };
 		B1935A2B2ED97F1F009FE87E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -101,6 +105,8 @@
 				B1935A2D2ED97F25009FE87E /* Assets.xcassets */,
 				B1935A2F2ED97F25009FE87E /* Preview Content */,
 				B1935A532ED97F38009FE87E /* CarouselView.swift */,
+				B191143B2EDA1E0900B7C293 /* Store.swift */,
+				B191143D2EDA1E2D00B7C293 /* Item.swift */,
 			);
 			path = AtlysProject;
 			sourceTree = "<group>";
@@ -260,6 +266,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B191143F2EDA1E5B00B7C293 /* Store.swift in Sources */,
+				B191143E2EDA1E2D00B7C293 /* Item.swift in Sources */,
 				B1935A2C2ED97F1F009FE87E /* ContentView.swift in Sources */,
 				B1935A542ED97F38009FE87E /* CarouselView.swift in Sources */,
 				B1935A2A2ED97F1F009FE87E /* AtlysProjectApp.swift in Sources */,
